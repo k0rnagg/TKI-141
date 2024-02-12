@@ -26,8 +26,8 @@ int main()
     double z = 1.1;
     double a = def_A(x, y, z);
     double b = def_B(x, y, z);
-    printf("x = %lf y = %lf z = %lf\n", x, y, z);
     printf("a = %lf b = %lf", a, b);
+    printf("x = %lf y = %lf z = %lf\n", x, y, z);
 
     return 0;
 }
